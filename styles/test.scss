@@ -1,0 +1,14 @@
+// variables
+// DRY
+// i hate repeating myself
+$black: black;
+$white: aliceblue;
+$normal-size: 1.25em;
+
+body{
+  /* hi world, I am using sass */
+  //this only works up in sass
+  background: $black;
+  color: $white;
+  font-size: $normal-size
+}
