@@ -8,17 +8,27 @@ $byline: 0.75rem;
 $headline-margin: 5px;
 $sans-serif: 'Open Sans', sans-serif;
 $serif: 'Slabo 27px', serif;
+$sarcastic: 'SarcasticRobot', serif;
+
 
 body {
   font-size: 16px;
 }
 h1{
-  font-family: sans-serif;
+  font-family: $serif;
   font-size: $headline-text;
   margin: $headline-margin;
 }
+
+@font-face {
+font-family: SarcasticRobot;
+font-style: normal;
+font-weight: normal;
+src: local('SarcasticRobot'), url("styles/SarcasticRobot.otf") format("opentype");
+}
+
 p{
-  font-size: serif;
+  font-family: $sarcastic;
   font-size: $body-text;
 }
 
@@ -27,7 +37,7 @@ nav li {
 }
 
 h2{
-  font-family: sans-serif;
+  font-family: $sans-serif;
   font-size: $sub-header;
   margin: $headline-margin;
 }

@@ -2,19 +2,24 @@ body {
   font-size: 16px; }
 
 h1 {
-  font-family: sans-serif;
+  font-family: "Slabo 27px", serif;
   font-size: 3rem;
   margin: 5px; }
 
+@font-face {
+  font-family: SarcasticRobot;
+  font-style: normal;
+  font-weight: normal;
+  src: local("SarcasticRobot"), url("styles/SarcasticRobot.otf") format("opentype"); }
 p {
-  font-size: serif;
+  font-family: "SarcasticRobot", serif;
   font-size: 1rem; }
 
 nav li {
   font-size: 1.25rem; }
 
 h2 {
-  font-family: sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1.5rem;
   margin: 5px; }
 
